@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Jun 12 20:44:45 2026
+# Process ID: 34612
+# Current directory: D:/DUsers/semestr 8/sem_8_moj/fpga/3D_acc/3D_acc.runs/design_1_xbar_0_synth_1
+# Command line: vivado.exe -log design_1_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xbar_0.tcl
+# Log file: D:/DUsers/semestr 8/sem_8_moj/fpga/3D_acc/3D_acc.runs/design_1_xbar_0_synth_1/design_1_xbar_0.vds
+# Journal file: D:/DUsers/semestr 8/sem_8_moj/fpga/3D_acc/3D_acc.runs/design_1_xbar_0_synth_1\vivado.jou
+# Running On: Fletcher, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 6, Host memory: 16800 MB
+#-----------------------------------------------------------
+source design_1_xbar_0.tcl -notrace

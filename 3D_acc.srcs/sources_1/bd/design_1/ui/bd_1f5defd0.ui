@@ -1,0 +1,36 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.839327",
+   "Default View_TopLeft":"107,188",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 330 -y 100 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 3 -x 1250 -y 620 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 2 -x 800 -y 170 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 1 -x 330 -y 310 -defaultsOSRD
+preplace inst cordic_3d_0 -pg 1 -lvl 3 -x 1250 -y 250 -defaultsOSRD
+preplace netloc axi_dma_0_m_axis_mm2s_tdata 1 2 2 1030 380 1470
+preplace netloc axi_dma_0_m_axis_mm2s_tlast 1 2 2 1040 390 1460
+preplace netloc axi_dma_0_m_axis_mm2s_tvalid 1 2 2 1020 400 1480
+preplace netloc cordic_3d_0_m_axis_tdata 1 2 2 990 110 1460
+preplace netloc cordic_3d_0_m_axis_tvalid 1 2 2 980 90 1510
+preplace netloc cordic_3d_0_m_axis_tlast 1 2 2 1000 120 1500
+preplace netloc cordic_3d_0_s_axis_tready 1 2 2 1010 100 1520
+preplace netloc axi_dma_0_s_axis_s2mm_tready 1 2 2 1040 830 1500
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 20 210 640 340 960
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 30 200 630
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 1 2 650 350 970
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 1 N 60
+preplace netloc ps8_0_axi_periph_M00_AXI 1 2 1 950 160n
+preplace netloc ps8_0_axi_periph_M01_AXI 1 2 1 N 180
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 1 1 N 80
+preplace netloc cordic_3d_0_M_AXIS 1 2 2 1040 410 1490
+levelinfo -pg 1 0 330 800 1250 1540
+pagesize -pg 1 -db -bbox -sgen 0 0 1540 840
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
